@@ -1,0 +1,12 @@
+[model.chat.http]
+kind = "openai/chat"
+model_name = "qwen/qwen3-coder-30b"  # Example model
+api_endpoint = "http://localhost:1234/v1"    # LM Studio server endpoint with /v1 path
+api_key = ""                                 # No API key required for local deployment
+
+[model.completion.http]
+kind = "openai/completion"
+model_name = "qwen/qwen3-coder-30b"                 # Example code completion model
+api_endpoint = "http://localhost:1234/v1"
+api_key = ""
+prompt_template = "<|fim_prefix|>{prefix}<|fim_suffix|>{suffix}<|fim_middle|>"  # Example prompt template for CodeLlama models

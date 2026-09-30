@@ -1,0 +1,24 @@
+================harga dasar================
+harga modal (pembelian dasar barang)
+harga ongkos kirim
+harga aksesoris
++ harga pembulat 
+
+harga penjual (consignment)
+
+==============pendapatan=================
+harga minimal keuntungan = 50k
+
+harga dasar + harga minimal keuntungan = harga bruto
+harga bruto + harga pajak = harga jual
+
+harga jual != harga bulat / harga pecahan
+
+harga jual pecahan = harga keuntungan (harga minimal keuntungan + harga pembulat)
+
+
+
+harga keuntungan = 60450 (tentukan sendiri)
+harga bruto = (harga dasar) 189.550 + harga keuntungan = 250k
+252.489
+harga pajak - 12%
